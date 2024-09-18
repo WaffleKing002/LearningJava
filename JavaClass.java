@@ -4,7 +4,9 @@ public class JavaClass {
     {
         int x = 7;
         int y = 18;
-        boolean result = x < y;
+        int a = 8;
+        int b = 2;
+        boolean result = x < y && a < b;
            System.out.println(result);
 
     }
