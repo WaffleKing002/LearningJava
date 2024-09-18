@@ -4,10 +4,16 @@ public class JavaClass {
     {
 
            int num1 = 15;
-           int num2 = 45;
-           int num3 = 3;
-           int result = num1 * num2 / num3;
-           System.out.println(result);
+           byte by = 66;
+           short s = 556;
+           long l = 65747l;
+
+           float f = 6.7f;
+           double d = 66.8;
+
+           char c = 'm';
+
+           boolean b = false;
 
 
 
