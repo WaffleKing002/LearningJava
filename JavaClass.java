@@ -2,12 +2,8 @@ public class JavaClass {
 
     public static void main(String args[])
     {
-
-           byte a = 15;
-           byte b = 30;
-
-           int result = a * b;
-
+        int num = 7;
+        int result = ++num;
            System.out.println(result);
 
     }
