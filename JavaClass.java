@@ -4,11 +4,16 @@ public class JavaClass {
     {
         int x = 7;
         int y = 18;
-        int a = 8;
-        int b = 2;
-        boolean result = x < y && a < b;
-           System.out.println(result);
-
+        if(x<y)
+        {
+            System.out.println(x);
+            System.out.println("Thank You Very Much");
+        }
+        else
+        {
+            System.out.println(y);
+            System.out.println("Bye");
+        }
     }
 
 }
