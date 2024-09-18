@@ -2,18 +2,15 @@ public class JavaClass {
 
     public static void main(String args[])
     {
-        int x = 7;
+        int x = 77;
         int y = 18;
-        if(x<y)
-        {
+        int z = 22;
+        if(x>y && x>z)
             System.out.println(x);
-            System.out.println("Thank You Very Much");
-        }
-        else
-        {
+        else if(y>z)
             System.out.println(y);
-            System.out.println("Bye");
-        }
+        else
+            System.out.println(z);
     }
 
 }
