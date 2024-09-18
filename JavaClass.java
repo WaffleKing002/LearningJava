@@ -3,13 +3,10 @@ public class JavaClass {
     public static void main(String args[])
     {
 
-           int a = 157;
-           byte b = (byte) a;
+           byte a = 15;
+           byte b = 30;
 
-           float f = 3.5f;
-           int n = (int) f;
-
-           int result = b * n;
+           int result = a * b;
 
            System.out.println(result);
 
